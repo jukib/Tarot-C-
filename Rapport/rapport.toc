@@ -1,0 +1,11 @@
+\select@language {french}
+\contentsline {part}{I\hspace {1em}Sp\IeC {\'e}cification}{2}{part.1}
+\contentsline {section}{\numberline {1}R\IeC {\`e}gles du jeu}{2}{section.1}
+\contentsline {section}{\numberline {2}Diagramme des cas d'utilisations}{5}{section.2}
+\contentsline {section}{\numberline {3}Mod\IeC {\`e}le du domaine}{6}{section.3}
+\contentsline {section}{\numberline {4}Maquettes de l'IHM}{8}{section.4}
+\contentsline {section}{\numberline {5}Diagramme d'activit\IeC {\'e}}{9}{section.5}
+\contentsline {part}{II\hspace {1em}Conception}{10}{part.2}
+\contentsline {section}{\numberline {6}Diagramme de classe de conception}{10}{section.6}
+\contentsline {section}{\numberline {7}Diagramme de classes de participantes}{11}{section.7}
+\contentsline {section}{\numberline {8}Diagrammes de s\IeC {\'e}quence}{12}{section.8}
