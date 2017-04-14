@@ -1,0 +1,2344 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{babel}
+
+
+%\usepackage[french]{babel}
+
+
+
+\usepackage{svg}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding utf8
+\fontencoding T1
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing double
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "colorlinks,linkcolor=black,urlcolor=black"
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Defines a new command for the horizontal lines, change thickness here
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Center everything on the page
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	HEADING SECTIONS
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+LARGE
+\end_layout
+
+\end_inset
+
+ Génie Mathématique 4ème année
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Name of your university/college
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+Large
+\end_layout
+
+\end_inset
+
+ Projet Semestriel
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Major heading such as course name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+large
+\end_layout
+
+\end_inset
+
+ C++
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Minor heading such as course title
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	TITLE SECTION
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+HRule
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+huge
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+bfseries
+\end_layout
+
+\end_inset
+
+ Le Tarot 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Title of your document
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+HRule
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	AUTHOR SECTION
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align left
+
+\size large
+\emph on
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Auteurs:
+\emph default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\size large
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Ahmed Farouk BELGHAZI 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Gabriel DUFLO
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Adrien LATIL
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Nicolas LEGOUY
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Nicolas MONANGE
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\size default
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\emph on
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Superviseurs:
+\emph default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\size large
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Cécilia ZANNI-MERK
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape smallcaps
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+Zina EL GUEDRIA SGAIER
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Supervisor's Name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\size default
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[2cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	DATE SECTION
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[2cm]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	LOGO SECTION
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename insa_rouen.eps
+	width 80text%
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Spécification
+\end_layout
+
+\begin_layout Section
+Règles du jeu
+\end_layout
+
+\begin_layout Standard
+Le tarot est un jeu basé sur le pari, de sorte que l'objectif est de réussir
+ à obtenir un certain nombre de points, annoncé à l'avance, par un joueur
+ dit 
+\series bold
+preneur
+\series default
+.
+ Il peut en cela être aidé par des cartes spéciales, les 
+\series bold
+bouts
+\series default
+.
+ Suivant le nombre de joueurs (3, 4 ou 5), le preneur peut jouer seul ou
+ avec un partenaire.
+ Cette équipe est appelée le 
+\series bold
+Camp Déclarant
+\series default
+, tandis que les autres joueurs représentent la 
+\series bold
+Défense
+\series default
+.
+\end_layout
+
+\begin_layout Subsection*
+Les cartes
+\end_layout
+
+\begin_layout Standard
+Le tarot est un jeu composé de 78 cartes : 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+14 cartes par couleur 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+21 atouts 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+l'Excuse 
+\end_layout
+
+\begin_layout Standard
+Dans chaque couleur, l'ordre des cartes est le suivant : 1-2-...-10-valet-cavalier-
+dame-roi.
+ Les atouts sont numérotés de 1 à 21 et sont prioritaires sur les cartes
+ de couleurs.
+ Les bouts (au nombre de 3) sont des cartes spéciales valant plus de points
+ lors du comptage : 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+le 1 d'atout (aussi appelé le Petit) 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+le 21 d'atout 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+l'Excuse 
+\end_layout
+
+\begin_layout Standard
+L'objectif de points dépend du nombre de bouts remportés à la fin de la
+ partie par le Camp Déclarant : 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+sans bout, l'objectif est de 56 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+avec 1 bout, l'objectif est de 51 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+avec 2 bouts, l'objectif est de 41 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+avec 3 bouts, l'objectif est de 36 points 
+\end_layout
+
+\begin_layout Standard
+Chaque carte vaut ainsi un certain nombre de points : 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+un bout : 4.5 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+un roi : 4.5 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+une dame : 3.5 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+un cavalier : 2.5 points 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+un valet : 1.5 point 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+une petite carte (le reste) : 0.5 point 
+\end_layout
+
+\begin_layout Subsection*
+Initialisation de la partie
+\end_layout
+
+\begin_layout Standard
+Un joueur désigné comme le donneur distribue les cartes 3 par 3 et constitue
+ le 
+\series bold
+chien
+\series default
+ pendant la distribution.
+ Ce dernier est constitué de 6 cartes dans le cas d'une partie à 3 ou 4
+ joueurs et de 3 cartes avec 5 joueurs.
+ L'ensemble des cartes est alors distribué.
+ Chaque joueur regarde ses cartes tandis que le chien reste inconnu (il
+ est dévoilé à la fin des annonces).
+ À la fin de la distribution, chaque joueur, en commençant par celui à la
+ gauche du donneur, va faire une annonce en fonction de son jeu.
+ Celle-ci va impacter le score obtenu en fin de partie : 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+une 
+\series bold
+petite
+\series default
+ : pas de bonus supplémentaire 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+une 
+\series bold
+garde
+\series default
+ : le résultat du pari est multiplié par 2 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+une 
+\series bold
+garde sans le chien
+\series default
+ (le chien n'est pas dévoilé et ses cartes seront pour le Camp Déclarant)
+ : le résultat du pari est multiplié par 4 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+une 
+\series bold
+garde contre le chien
+\series default
+ (le chien n'est pas dévoilé et ses cartes seront pour la Défense) : le
+ résultat du pari est multiplié par 6 
+\end_layout
+
+\begin_layout Standard
+Le preneur est celui qui fait la plus grosse annonce.
+ Si aucun joueur ne fait d'annonce, les cartes sont redistribuées.
+ Le multiplicateur est donné en cas de victoire mais également en cas de
+ défaite, d'où le risque de prendre.
+ Le preneur dévoile alors le chien (sauf dans le cas d'une garde sans ou
+ d'une garde contre) et place ses cartes dans son jeu.
+ Il crée ensuite un nouveau chien (sans que les autres ne le voient) dont
+ les cartes seront pour la Camp Déclarant (le preneur n'a pas le droit de
+ placer de bouts dans le chien et il peut placer des rois seulement s'il
+ le dit aux autres).
+ Dans le cas d'une partie à 5, le preneur choisit un roi, dont le propriétaire
+ deviendra alors son partenaire.
+\end_layout
+
+\begin_layout Subsection*
+Déroulement
+\end_layout
+
+\begin_layout Standard
+C'est toujours le joueur situé à gauche du donneur qui commence la partie.
+ Il joue une couleur et les autres joueurs ont l'obligation de fournir la
+ couleur demandée si, bien entendu, ils en possèdent les cartes.
+ S'ils n'en possèdent pas, ils peuvent couper à l'atout.
+ Si un atout est joué en début de tour, les autres joueurs doivent également
+ jouer un atout mais toujours de valeur supérieur (s'ils en possèdent les
+ cartes).
+\end_layout
+
+\begin_layout Standard
+Le gagnant du pli est celui qui a posé la carte de la couleur ouverte ayant
+ la plus grosse valeur si aucun atout n'a été posé, sinon c'est celui qui
+ a posé le plus gros atout.
+ Dans le cas où l'Excuse est jouée, le joueur ne fait pas le pli mais il
+ conserve sa carte (sauf si elle est jouée au dernier tour : dans ce cas,
+ l'Excuse est remportée par celui qui remporte le pli).
+ Il donne en échange une petite carte depuis sa pile.
+ Celui qui gagne le pli ouvre le tour suivant.
+\end_layout
+
+\begin_layout Subsection*
+Décompte des points
+\end_layout
+
+\begin_layout Standard
+Après que toutes les cartes ont été jouées, le Camp Déclarant compte ses
+ points et voit s'il a atteint son objectif.
+ La somme de tous les points faisant toujours 91, la Défense peut également
+ compter ses points pour en déduire le score du Camp Déclarant.
+ Pour connaître le résultat, il faut prendre la différence entre l'objectif
+ et le score.
+ À ce nombre s'ajoutent alors 25 points.
+ Enfin, il faut multiplier le nombre obtenu par le coefficient correspondant
+ à l'annonce.
+ Ce résultat est alors ajouté ou retranché aux joueurs de la Défense suivant
+ la réussite de l'objectif.
+ Les joueurs du Camp Déclarant se partagent ensuite les points de sorte
+ que la somme des points de tous les joueurs soit nulle.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{Exemple :}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si le Camp Déclarant fait 46 points avec 2 bouts, et a annoncé une garde.
+ Il dépasse son objectif de 5 points, auxquels s'ajoutent 25 points, ce
+ qui donne 30 points.
+ Étant donné que le preneur a annoncé une garde, le résultat total est donc
+ de 
+\begin_inset Formula $30*2=60$
+\end_inset
+
+ points.
+ Si le preneur a joué seul, il empoche la totalité des points, sinon (dans
+ une partie à 5 joueurs, 2 pour le Camp Déclarant et 3 pour la Défense)
+ il prend 2/3 des points restants tandis que le partenaire en garde 1/3.
+ Dans cas, dans une partie à 5, le preneur gagne alors 120 points et le
+ partenaire 60 points.
+ La somme des points est bien nulle : 
+\begin_inset Formula $120+60+(-60)+(-60)+(-60)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dans les mêmes conditions, si le Camp Déclarant avait marqué 36 points (5
+ points en dessous de l'objectif), le preneur aurait marqué -120 points,
+ son partenaire -60 points, et les joueurs de la Défense auraient tous marqué
+ 60 points.
+\end_layout
+
+\begin_layout Section
+Diagramme des cas d'utilisations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename cas_utilisations.eps
+	scale 50
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagramme des cas d'utilisations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Modèle du domaine
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename modele_domaine.eps
+	scale 45
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modèle du domaine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notre domaine se décompose en plusieurs classes : 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe Joueur, qui contient le nom du joueur ainsi que son nombre total
+ de points, qui évolue à la fin de chaque partie en fonction des résultats
+ de la partie.
+ Pendant la partie, le joueur possède une Pile et une Main.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe Pile représente les cartes remportées par le joueur au sein d'une
+ partie, stockées dans une liste de Carte.
+ A la fin de chaque tour de jeu, une fois que chaque joueur a déposé sa
+ carte, le joueur possédant la carte la plus forte remporte le pli, et ainsi
+ les cartes du tour de jeu sont placées dans la liste de sa pile.
+ A la fin de la partie, c'est en comptabilisant le nombre de points contenu
+ dans la pile de chaque joueur qu'on peut déterminer les résultats de la
+ partie.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe Main représente les cartes que le joueur à en main et qu'il peut
+ donc potentiellement jouer au tour de jeu suivant.
+ Ces cartes sont contenues dans une liste de Carte, qui perd un élément
+ à chaque tour de jeu, et qui est vide à la fin de la partie.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe abstraite Carte représente l'ensemble des cartes du jeu ; elle
+ possède en paramètre le nombre de points que vaut la carte (pour la comptabilis
+ation des points à la fin de la partie), un booléen indiquant si la carte
+ considérée est un bout (3 cartes auront ce booléen a « true », il sera
+ « false » pour toutes les autres), un entier valeur qui correspond à la
+ valeur de la carte ( par exemple 5 pour le 5 de carreau, 14 pour une dame,
+ 7 pour l'atout 7...
+ Et 0 par défaut pour l'excuse), et un booléen jouable qui indique a chaque
+ tour de jeu quelles cartes peuvent être jouées, en accord avec les règles
+ du jeu.
+ Nous avons divisé les cartes en 3 classe différentes, qui héritent chacune
+ de cette classe abstraite.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe Atout, représente une carte atout.
+ Il y a 21 cartes de classe Atout, avec le 1 et le 21 qui auront le booléen
+ « bout » à « true ».
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe Excuse, qui représente la carte excuse et qui aura donc le booléen
+ « bout » à « true ».
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe abstraite Couleur, représente l'ensemble des cartes de couleur,
+ c'est à dire toutes les cartes de Trèfle, Carreau, Pique et Cœur.
+ Chacune de ces classes hérite de la classe abstraite Couleur et représente
+ les 14 cartes de cette couleur.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe TourDeJeu représente les cartes jouées par les joueurs au tour
+ de jeu actuel, stockées dans une liste de Carte.
+ La liste est vide au début du tour et se remplit au fur et à mesure que
+ chaque joueur joue sa carte.
+ À la fin du tour, la liste de TourDeJeu est vidée, les cartes sont déplacées
+ vers la Pile du joueur qui a remporté le pli.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument item:1
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bullet$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+la classe Chien est utilisée en début de partie.
+ Elle permet de stocker les cartes restante à la fin de la distribution
+ dans une liste de Carte.
+ En fonction du mode choisi par le joueur qui décide de prendre, il peut
+ être amené à récupérer les cartes stockées dans le Chien et en met d'autres
+ de sa main à la place.
+ 
+\end_layout
+
+\begin_layout Section
+Maquettes de l'IHM
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename maquette_ihm_1.eps
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maquette IHM du menu principal
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename maquette_ihm_2.eps
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Maquette IHM de la table de jeu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'utilisateur choisit la carte qu'il désire jouer par un clic sur les cartes
+ placées en face de lui.
+ Après chaque coup, la table de jeu est mise à jour.
+\end_layout
+
+\begin_layout Section
+Diagramme d'activité
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename diagramme_activite.png
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagramme d'activité
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Conception
+\end_layout
+
+\begin_layout Section
+Diagramme de classe de conception
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename diagramme_classe_conception.png
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagramme de classe de conception
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagramme de classes de participantes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename diagramme_classe_particiapantes.png
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagramme de classes de participantes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Diagrammes de séquence
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename diagramme_sequence_debut.png
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagramme de séquence de début de partie
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un joueur 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename diagramme_sequence_tour.png
+	scale 40
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagramme de séquence pour un tour de jeu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
